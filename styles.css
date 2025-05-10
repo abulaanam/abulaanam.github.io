@@ -42,3 +42,20 @@ footer {
   font-size: 0.9rem;
   color: #777;
 }
+
+/* New Styles */
+.fun-message {
+  font-size: 1.5rem;
+  color: #ff6347; /* Tomato color */
+  margin-top: 10px;
+  animation: bounce 1s infinite;
+}
+
+a {
+  color: #007acc;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+a
