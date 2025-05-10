@@ -3,8 +3,96 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Abul Aanam - Portfolio (Work in Progress)</title>
+  <title>Abul Aanam - Portfolio (Used to be)</title>
   <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f0f8ff;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .container {
+      text-align: center;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      background-color: #ffffff;
+      max-width: 600px;
+    }
+
+    header {
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      color: #007acc;
+      margin: 0;
+    }
+
+    .subtitle {
+      font-size: 1.2em;
+      color: #555;
+    }
+
+    section.about {
+      margin: 20px 0;
+    }
+
+    h2 {
+      font-size: 2em;
+      color: #007acc;
+    }
+
+    p {
+      font-size: 1.1em;
+      line-height: 1.5;
+    }
+
+    a {
+      color: #007acc;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    a:hover {
+      color: #005999;
+    }
+
+    footer {
+      margin-top: 20px;
+      font-size: 0.9em;
+      color: #777;
+    }
+
+    .fun-message {
+      font-size: 1.2em;
+      color: #ff6347;
+      margin-top: 10px;
+      animation: bounce 1s infinite;
+    }
+
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+      }
+      40% {
+        transform: translateY(-10px);
+      }
+      60% {
+        transform: translateY(-5px);
+      }
+    }
+  </style>
 </head>
 <body>
   <div class="container">
@@ -15,8 +103,8 @@
 
     <section class="about">
       <h2>Welcome!</h2>
-      <p>This site is currently a <strong>Work in Progress</strong>.</p>
-      <p>I'm building my personal portfolio here. Soon you'll find my projects, blog posts, resume, and more.</p>
+      <p>I wanted to play around with .NET and Azure, so I moved my portfolio to <a href="https://abulaanam.azurewebsites.net" target="_blank">https://abulaanam.azurewebsites.net</a>. Do check it out!</p>
+      <p class="fun-message">Exciting things are coming your way!</p>
     </section>
 
     <footer>
